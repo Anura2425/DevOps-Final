@@ -1,3 +1,3 @@
 # DevOps-Final
 
-Implementation of some Sleep Sort for our Linux and DevOps Final 😼
+Implementation of Sleep Sort for our Linux and DevOps Final 😼

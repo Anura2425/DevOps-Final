@@ -10,8 +10,8 @@ def test_pre_sorted():
     
 
 def test_neg_pre_sort():
-    assert sleep_sort.sort([-5,-4,-3,-2,-1]) == (-5,-4,-3,-2,-1)
+    assert sleep_sort.sort([-5,-4,-3,-2,-1]) == [-5,-4,-3,-2,-1]
     
     
 def test_neg_sort_simple():
-    assert sleep_sort.sort([-4,-1,-3,-5,-2]) == (-5,-4,-3,-2,-1)
+    assert sleep_sort.sort([-4,-1,-3,-5,-2]) == [-5,-4,-3,-2,-1]

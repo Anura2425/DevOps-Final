@@ -15,3 +15,11 @@ def test_neg_pre_sort():
     
 def test_neg_sort_simple():
     assert sleep_sort.sort([-4,-1,-3,-5,-2]) == [-5,-4,-3,-2,-1]
+
+
+def test_zero():
+    assert sleep_sort.sort([0]) == [0]
+
+
+def test_neg_and_pos():
+    assert sleep_sort.sort([-5,3,-2,0,1,4,9,-7]) == [-7,-5,-2,0,1,3,4,9]

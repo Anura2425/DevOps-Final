@@ -42,4 +42,5 @@ def sort(list):
         thread.join()
     
     #return the sorted list
+    print("sorted! 🐱")
     return newList

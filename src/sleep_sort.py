@@ -43,4 +43,5 @@ def sort(list):
     
     #return the sorted list
     print("sorted! 🐱")
+    print("Demos are cool!")
     return newList
